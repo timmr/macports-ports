@@ -3,8 +3,7 @@
 PortSystem          1.0
 
 name                bacula
-version             7.0.4
-revision            4
+version             9.4.2
 categories          sysutils
 platforms           darwin
 license             {AGPL-3 OpenSSLException}
@@ -18,8 +17,9 @@ long_description    Bacula is a set of computer programs that permit you to \
 homepage            http://www.bacula.org/
 master_sites        sourceforge
 
-checksums           rmd160  09d033f4ea3431f57d8018647af41c1ae417652d \
-                    sha256  ebf802b843a95f6526e82dd181dff7cd7dc7d1fdc55cec8636e0fe3af69acf7e
+checksums           rmd160  bdee9df1c9986dd893dd2a2bcbdf2881de82864c \
+                    sha256  a40d04d2c48135972cecb6578405e835c4b9d798c0950017de0fad40ca94e8a0 \
+                    size    4163642
 
 depends_build       port:pkgconfig
 depends_lib         port:gawk \
